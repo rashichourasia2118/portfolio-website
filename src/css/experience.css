@@ -1,0 +1,89 @@
+.experience{
+	padding:50px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+
+}
+.experience-icon {
+	width: 40px;
+	margin-top:10px;
+}
+
+.main-badge {
+	font-size: 13px !important;
+	text-align: left !important;
+	padding: 5px 8px 5px 8px !important;
+	vertical-align: baseline;
+	background-color: #43A5BE !important;
+	background-color: #5072A7!important;
+	color: white;
+	font-weight: lighter !important;
+	
+}
+
+.experience-badge {
+	font-size: 11px !important;
+	text-align: left !important;
+	padding: 5px 8px 5px 8px !important;
+	margin:3px;
+	vertical-align: baseline;
+	background-color: #43A5BE !important;
+	color: white;
+	font-weight: lighter !important;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.vertical-timeline-element-title{
+	font-size: 30px;
+	font-weight: bold;
+	background: -webkit-linear-gradient(#5072A7, #ffffff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.vertical-timeline-element-subtitle{
+   font-weight: lighter;
+   font-size: 20px;
+   opacity: .6;
+}
+.vertical-timeline-element-date {
+	padding: 0 !important;
+	margin: 0 !important;
+	color:white !important;
+	width:200px !important;
+	font-size:20px !important;
+	opacity:1;
+	
+}
+.vertical-timeline-element-content{
+    letter-spacing: 2px;
+    color:white;
+
+	background: rgb(17, 4, 134);
+    border-radius: 15px;
+    box-shadow: rgb(0,0,0,0.7) 5px 10px 50px ,rgb(0,0,0,0.7) -5px 0px 250px;
+    background: linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85));
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+	
+}
+@media only screen and (max-width: 1170px) {
+	.experience{
+       padding-top:20px;
+	}
+	.experience-icon {
+		width:25px;
+		text-align: center;
+	}
+	.vertical-timeline-element-title{
+		font-size:25px;
+	}
+	.vertical-timeline-element-subtitle{
+		font-size:15px;
+	}
+	.vertical-timeline-element-date {
+		width:160px !important;
+	}
+}
+
