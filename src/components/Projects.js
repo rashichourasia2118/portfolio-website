@@ -105,7 +105,7 @@ return(
                         <img src={react1} alt=""/>
                       </div>
                       <div className="projects-links">
-                        <a href="https://github.com/rashichourasia2118/Personal-voice-Assistant"><img src={github} alt="hjsd"/></a>
+                        <a href="https://github.com/rashichourasia2118/portfolio-website"><img src={github} alt="hjsd"/></a>
                          
                        </div>
                        </div>
