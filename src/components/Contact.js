@@ -28,7 +28,7 @@ export const Contact =()=>{
       setBtnText('Sending..');
     
       try {
-        const response = await fetch("http://portfolio-website-three-theta-11.vercel.app/contact", {
+        const response = await fetch("https://portfolio-website-three-theta-11.vercel.app/contact", {
           method: "POST",
           headers: {
             "Content-Type": "Application/json;charset=utf-8",
@@ -70,7 +70,7 @@ export const Contact =()=>{
                    {({ isVisible }) =>
                      <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                     <h2 className="neonText">Get In Touch</h2>
-                    <form name="contact" method="POST" action="http://portfolio-website-three-theta-11.vercel.app/contact" onSubmit={handleSubmit}>
+                    <form name="contact" method="POST" action="https://portfolio-website-three-theta-11.vercel.app/contact" onSubmit={handleSubmit}>
                         <Row>
                             <Col sm={6} className="px-1">
                               <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e)=>onFormUpdate('firstName',e.target.value)}/>
