@@ -4,7 +4,6 @@ import { HashLink } from 'react-router-hash-link';
 import icon1 from '../assets/images/linkedin-32.png';
 import icon2 from '../assets/images/github-32.png';
 import icon3 from '../assets/images/leetcode-32.png';
-import logo from "../assets/images/port-96.png";
 import '../css/navbar.css';
 
 
@@ -39,7 +38,7 @@ export const NavBar = () =>{
             <Nav.Link href="#home" className={activeLink==='home'?'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('home')}>Home</Nav.Link>
             <Nav.Link href="#skills" className={activeLink==='skills'?'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('skills')}>Skills</Nav.Link>
             <Nav.Link href="#projects" className={activeLink==='projects'?'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('projects')}>Projects</Nav.Link>
-            <Nav.Link href="#experience" className={activeLink==='experience'?'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('experience')}>Work Experience</Nav.Link>
+            <Nav.Link href="#resume" className={activeLink==='experience'?'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('experience')}>Work Experience</Nav.Link>
             <Nav.Link href="#certifications" className={activeLink==='certifications'?'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('certifications')}>Certifications</Nav.Link>
            
           </Nav>
