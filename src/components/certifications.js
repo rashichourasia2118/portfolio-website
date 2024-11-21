@@ -3,9 +3,9 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import '../css/certifications.css';
 import nanoDegree from "../assets/images/nano-degree.webp";
-import cn from "../assets/images/cn.jpeg";
 import fullStack from "../assets/images/full-stack.png";
-import goldBadge from "../assets/images/gold-badge.png";
+import aws from "../assets/images/aws.jpeg";
+import azure from "../assets/images/azure.jpeg";
 
 
 
@@ -37,41 +37,31 @@ export const Certifications = () => {
                     <div className="certificate-bx wow zoomIn">
                         <h2 className="neonText">ACHIEVEMENTS AND CERTIFICATIONS</h2>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme certificate-slider">
+                        <div className="certificate-item">
+                                <img src={aws} alt="Image" />
+                                <h5>AWS Certified Cloud Practioner</h5>
+                                <p>By- Amazon</p>
+                            </div>
+                            <div className="certificate-item">
+                                <img src={azure} alt="Image" />
+                                <h5>AI-102 Azure AI Engineer Associate</h5>
+                                <p>By- Microsoft</p>
+                            </div>
                             <div className="certificate-item">
                                 <img src={fullStack} alt="Image" />
                                 <h5>Full Stack Web Development</h5>
                                 <p>By- Microsoft Tech Saksham</p>
                             </div>
-                            <div className="certificate-item">
-                                <img src={nanoDegree} alt="Image" />
-                                <h5>DSA in CPP</h5>
-                                <p>By- Prepinsta</p>
-                            </div>
-                            <div className="certificate-item">
-                                <img src={goldBadge} alt="Image" />
-                                <h5>Gold Badge in CPP</h5>
-                                <p>By- Hackerank</p>
-                            </div>
+                            
+                            
                             <div className="certificate-item">
                                 <img src={nanoDegree} alt="Image" />
                                 <h5>Artificial Intelligence and Machine Learning</h5>
                                 <p>By- Prepinsta</p>
                             </div>
-                            <div className="certificate-item">
-                                <img src={nanoDegree} alt="Image" />
-                                <h5>SQL Course</h5>
-                                <p>By- Prepinsta</p>
-                            </div>
-                            <div className="certificate-item">
-                                <img src={nanoDegree} alt="Image" />
-                                <h5>Competitive Coding</h5>
-                                <p>By- Prepinsta</p>
-                            </div>
-                            <div className="certificate-item">
-                                <img src={cn} alt="Image" />
-                                <h5>The Bits and Bytes of Computer Networking</h5>
-                                <p>By- Coursera</p>
-                            </div>
+                            
+                            
+                            
                         </Carousel>
                     </div>
                 </div>

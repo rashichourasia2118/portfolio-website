@@ -5,8 +5,8 @@ import react1 from '../assets/images/react-32.png';
 import js1 from '../assets/images/js-32.png';
 import html1 from '../assets/images/html-32.png';
 import css1 from '../assets/images/css-32.png';
-import cpp1 from '../assets/images/cpp-32.png';
-import py1 from '../assets/images/python-32.png';
+import node from '../assets/images/icons8-nodejs-48.png'
+import aws from '../assets/images/icons8-aws-24.png'
 import '../css/banner.css';
 import resume from '../assets/images/resume.pdf';
 
@@ -62,9 +62,9 @@ return(
                   <div className="cube">
                     <div className="face front">
                        <img src={react1} alt="react" /></div>
-                    <div className="face back"> <img src={py1} alt="python" /></div>
+                    <div className="face back"> <img src={node} alt="nodejs" /></div>
                      <div className="face right"> <img src={js1} alt="js" /></div>
-                    <div className="face left"> <img src={cpp1} alt="c++" /></div>
+                    <div className="face left"> <img src={aws} alt="aws" /></div>
                    <div className="face top"> <img src={css1} alt="css" /></div>
                    <div className="face bottom"> <img src={html1} alt="html" /></div>
                  </div>

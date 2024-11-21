@@ -7,9 +7,24 @@ import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
 import "../css/experience.css";
 import glass from "../assets/images/glass-96.png";
-import js from "../assets/images/js-96.png"
+// import js from "../assets/images/js-96.png"
+import react from "../assets/images/react-96.png";
 
 const resumeExperience = [
+  {
+    years: "Mar2024 - Present",
+    title: "Assistant System Engineer",
+    company: "Tata Consultancy Services Ltd",
+    mainTech: ["React.JS"],
+    technologies: ["AWS", "Java","Javascript"],
+  },
+  {
+    years: "Feb2024",
+    title: "Software Engineer Intern",
+    company: "Reak Infotech LLP",
+    mainTech: ["React.JS"],
+    technologies: ["MySQL", "Golang","Javascript"],
+  },
   {
     years: "Jul-Sep 2023",
     title: "Software Developer Trainee",
@@ -56,7 +71,7 @@ export const Experience = () => {
           color: "#fff",
           textAlign: "center",
         }}
-        icon={<img src={js} className="experience-icon" alt="icon" />}
+        icon={<img src={react} className="experience-icon" alt="icon" />}
         key={i}
       >
         <div style={{ textAlign: "left", marginBottom: "4px" }}>

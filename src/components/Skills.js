@@ -4,10 +4,13 @@ import js from "../assets/images/js-120.png";
 import css from "../assets/images/css-120.png";
 import html from "../assets/images/html-120.png";
 import git from "../assets/images/git-120.png";
-import cpp from "../assets/images/cpp-120.png";
+import java from "../assets/images/icons8-java-144.png";
 import react1 from "../assets/images/react-120.png";
-import python from "../assets/images/py-120.png";
+import aws from "../assets/images/icons8-aws-192.png";
+import node from "../assets/images/icons8-nodejs-144.png";
 import sql from "../assets/images/sql-120.png";
+import express from "../assets/images/icons8-express-js-150.png";
+import mongo from "../assets/images/icons8-mongodb-144.png";
 import '../css/skills.css';
 
 export const Skills = () => {
@@ -20,9 +23,17 @@ export const Skills = () => {
               <h2 className="neonText">SKILLS</h2>
            
               <div className="skill-items">
+              <div className="item">
+                  <img src={java} alt="HTML icon" />
+                  <h5>JAVA</h5>
+                </div>
+              <div className="item">
+                  <img src={aws} alt="HTML icon" />
+                  <h5>AWS</h5>
+                </div>
                 <div className="item">
-                  <img src={cpp} alt="C++ icon" />
-                  <h5>C++</h5>
+                  <img src={node} alt="HTML icon" />
+                  <h5>NODE.JS</h5>
                 </div>
                 <div className="item">
                   <img src={html} alt="HTML icon" />
@@ -44,13 +55,18 @@ export const Skills = () => {
                   <img src={git} alt="Git icon" />
                   <h5>GIT</h5>
                 </div>
-                <div className="item">
-                  <img src={python} alt="Python icon" />
-                  <h5>PYTHON</h5>
-                </div>
+                
                 <div className="item">
                   <img src={sql} alt="MYSQL icon" />
                   <h5>MySQL</h5>
+                </div>
+                <div className="item">
+                  <img src={express} alt="MYSQL icon" />
+                  <h5>EXPRESS.JS</h5>
+                </div>
+                <div className="item">
+                  <img src={mongo} alt="MYSQL icon" />
+                  <h5>MONGODB</h5>
                 </div>
               </div>
             </div>
