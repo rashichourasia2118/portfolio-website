@@ -1,6 +1,6 @@
 import { useState,useEffect } from 'react';
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { HashLink } from 'react-router-hash-link';
+// import { HashLink } from 'react-router-hash-link';
 import icon1 from '../assets/images/linkedin-32.png';
 import icon2 from '../assets/images/github-32.png';
 import icon3 from '../assets/images/leetcode-32.png';
@@ -48,9 +48,9 @@ export const NavBar = () =>{
                 <a href="https://github.com/rashichourasia2118"><img src={icon2} alt=""/></a>
                 <a href="https://leetcode.com/the_rashichourasia/"><img src={icon3} alt=""/></a>
             </div>
-            <HashLink to='#connect'>
+            {/* <HashLink to='#connect'>
                 <button className="neonText medium connect-btn"><span >Let’s Connect</span></button>
-            </HashLink>
+            </HashLink> */}
           </span> 
         </Navbar.Collapse>
       </Container>
